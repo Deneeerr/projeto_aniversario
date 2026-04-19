@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/coracao.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="particles-container"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="heart-container">
+                <svg class="main-heart" viewBox="0 0 32 32">
+                    <path d="M16 28.5L14.1 26.7C7.2 20.4 3 16.5 3 11.5 3 7.4 6.2 4.2 10.3 4.2c2.3 0 4.5 1.1 5.7 2.8 1.2-1.7 3.4-2.8 5.7-2.8 4.1 0 7.3 3.2 7.3 7.3 0 5-4.2 8.9-11.1 15.2L16 28.5z"/>
+                </svg>
+            </div>
+            <h1 class="reveal">Feliz Aniversário, <span class="name">Alana</span></h1>
+            <p class="subtitle reveal">Celebrar a sua vida é reconhecer a beleza e a luz que você espalha no meu mundo todos os dias.</p>
+        </div>
+    </header>
+
+    <section class="gallery">
+        <h2 class="section-title">Fragmentos de uma história</h2>
+        
+        <div class="grid-container">
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/AJ_1904.jpeg');"></div>
+                <div class="overlay">
+                    <h3>Sua Essência</h3>
+                    <p>Admiro a forma natural como você traz luz aos detalhes mais simples.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/ALE_5513.jpg');"></div>
+                <div class="overlay">
+                    <h3>Nossos Momentos</h3>
+                    <p>Cada risada compartilhada é uma memória que guardo com cuidado.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/AJ_1907.jpeg');"></div>
+                <div class="overlay">
+                    <h3>Admiração</h3>
+                    <p>Sua força e delicadeza caminham juntas de um jeito único.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/AJ_1906.jpeg');"></div>
+                <div class="overlay">
+                    <h3>Gratidão</h3>
+                    <p>Obrigado por ser exatamente quem você é, sem reservas.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/_MG_9060.jpg');"></div>
+                <div class="overlay">
+                    <h3>Cumplicidade</h3>
+                    <p>A melhor parte de qualquer plano é ter você ao meu lado.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <div class="photo-placeholder" style="background-image: url('assets/img/AJ_1905.jpeg');"></div>
+                <div class="overlay">
+                    <h3>Amor</h3>
+                    <p>A vida ganha um ritmo mais bonito com você.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <video class="video-placeholder" autoplay muted loop playsinline>
+                    <source src="assets/videos/AJ_V_1901.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <div class="overlay">
+                    <h3>Personalidade</h3>
+                    <p>Seu jeito transforma qualquer momento simples em algo especial.</p>
+                </div>
+            </div>
+
+            <div class="photo-card reveal">
+                <video class="video-placeholder" autoplay muted loop playsinline>
+                    <source src="assets/videos/AJ_V_1902.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <div class="overlay">
+                    <h3>Desejos</h3>
+                    <p>Que o novo ciclo seja tão generoso quanto o seu coração.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="final-message">
+        <div class="footer-content reveal">
+            <p>Eu te amo, com carinho e amor,</p>
+            <p class="signature">Bernardo</p>
+            <button id="btn-relembrar" class="btn-elegant">Relembrar Momentos</button>
+        </div>
+    </footer>
+
+<div id="modal" class="modal">
+    <span class="close">&times;</span>
+    
+    <div class="modal-nav prev">&#10094;</div>
+    <div class="modal-nav next">&#10095;</div>
+
+    <div class="modal-container">
+        <div id="modal-content-wrapper"></div>
+        <div id="caption"></div>
+    </div>
+</div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
